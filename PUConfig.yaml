@@ -1,5 +1,8 @@
+#Should each stat be given a different amount. Either true or false.
 UniqueStatAmount: false
+#The amount to be given to all stats if uniqueStatAmount is false. A whole number.
 Amount: 1
+#The amount to be given to each stat if uniqueStatAmount is true. A whole number.
 StatAmounts:
   STR: 10
   DEX: 10
@@ -7,7 +10,11 @@ StatAmounts:
   WIL: 10
   MND: 10
   SPI: 10
+# Name of the item. A string
 DisplayName: Potential Unleashed Item
+# Lore of the item, will be used in the item's tooltip. A string with ; as a separator. Each ";" will be a new line in the tooltip.
 Lore: "ThisIsLoreWithoutSpaces;This is lore with spaces;\u00A7bThis is color coded lore"
+# If the item is to be owned by a player. A boolean, either true or false.
 Soulbound: false
+# Cooldown in seconds. A whole number
 Cooldown: 10
