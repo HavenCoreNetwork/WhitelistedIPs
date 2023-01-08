@@ -1,0 +1,13 @@
+UniqueStatAmount: false
+Amount: 1
+StatAmounts:
+  STR: 10
+  DEX: 10
+  CON: 10
+  WIL: 10
+  MND: 10
+  SPI: 10
+DisplayName: Potential Unleashed Item
+Lore: "ThisIsLoreWithoutSpaces;This is lore with spaces;\u00A7bThis is color coded lore"
+Soulbound: false
+Cooldown: 10
